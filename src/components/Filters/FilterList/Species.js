@@ -43,8 +43,6 @@ const Species = ({ setPageNumber, setCharacterSpecies }) => {
               key={index}
               index={index}
               name="status"
-              //   task={updateStatus}
-              //   updatePageNumber={updatePageNumber}
               items={items}
             />
           ))}

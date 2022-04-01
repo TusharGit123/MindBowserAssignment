@@ -13,6 +13,7 @@
 
 .content {
   padding: 10px;
+  text-align: center;
 }
 
 .img {
@@ -24,3 +25,4 @@
   left: 20px;
   font-size: 17px;
 }
+

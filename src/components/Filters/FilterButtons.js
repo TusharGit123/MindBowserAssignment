@@ -3,7 +3,7 @@ import React from "react";
 const FilterButtons = ({ items, name, index, task, setPageNumber }) => {
   return (
     <div>
-      <style jsx>
+      <style>
         {`
           .x:checked + label {
             background-color: #0b5ed7;

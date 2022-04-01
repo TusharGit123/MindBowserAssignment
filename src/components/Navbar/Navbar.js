@@ -25,7 +25,7 @@ const Navbar = () => {
           id="navbarNavAltMarkup"
         >
           <div className="navbar-nav fs-5">
-            <NavLink activeClassName="active" to="/" className="nav-link">
+            <NavLink activeclassname="active" to="/" className="nav-link">
               Characters
             </NavLink>
             <NavLink to="/favorite" className="nav-link">

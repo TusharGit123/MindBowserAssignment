@@ -22,6 +22,7 @@ const Cards = ({ results, page }) => {
                 <div className="fs-6">last location</div>
                 <div className="fs-5">{location.name}</div>
               </div>
+              <i className="fas fa-heart"></i>
             </div>
           </div>
           {(() => {

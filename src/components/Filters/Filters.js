@@ -14,7 +14,7 @@ const Filters = ({
     setCharacterGender("");
     setCharacterSpecies("");
     setPageNumber("");
-    window.location.reload(false);
+    window.location.reload(false); //for to reload the filter clear button
   };
   return (
     <div className="col-3">

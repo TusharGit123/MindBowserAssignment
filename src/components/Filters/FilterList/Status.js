@@ -31,8 +31,6 @@ const Status = ({ setCharacterStatus, setPageNumber }) => {
               key={index}
               index={index}
               name="status"
-              //   task={updateStatus}
-              //   updatePageNumber={updatePageNumber}
               items={items}
             />
           ))}

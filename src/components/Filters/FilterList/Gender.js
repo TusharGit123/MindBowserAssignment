@@ -32,8 +32,6 @@ const Gender = ({ setPageNumber, setCharacterGender }) => {
                 name="gender"
                 index={index}
                 key={index}
-                // updatePageNumber={updatePageNumber}
-                // task={updateGender}
                 items={items}
               />
             );
