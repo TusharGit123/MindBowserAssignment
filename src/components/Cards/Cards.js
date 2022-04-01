@@ -4,6 +4,7 @@ import styles from "../../assets/css/cardStyle.css";
 
 const Cards = ({ results, page }) => {
   let showData;
+
   if (results) {
     showData = results.map((item) => {
       let { id, name, image, status, location } = item;
@@ -22,7 +23,12 @@ const Cards = ({ results, page }) => {
                 <div className="fs-6">last location</div>
                 <div className="fs-5">{location.name}</div>
               </div>
-              <i className="fas fa-heart"></i>
+              <i
+                className="fas fa-heart"
+                onClick={() => {
+                  console.log("hii");
+                }}
+              ></i>
             </div>
           </div>
           {(() => {

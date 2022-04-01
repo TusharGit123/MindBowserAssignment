@@ -73,6 +73,7 @@ const Home = () => {
             setCharacterSpecies={setCharacterSpecies}
             setPageNumber={setPageNumber}
           />
+
           {/*  All character cards  */}
           <div className="col-8">
             <div className="row">
